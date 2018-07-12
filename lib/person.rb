@@ -1,9 +1,9 @@
 # person.rb
-class Person
-  def name=person_name
+class Person  #defining class of person
+  def name=person_name  #initializing the name
     @name=person_name
   end
-  def name
+  def name  #getter method for the name
     @name
   end
   def job=person_job
@@ -14,6 +14,6 @@ class Person
   end
 end
 
-beyonce = Person.new
+beyonce = Person.new  # creating a new person
 beyonce.name = "Beyonce"
 beyonce.job = "Singer"
