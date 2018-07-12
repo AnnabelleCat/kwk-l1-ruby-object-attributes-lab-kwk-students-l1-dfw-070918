@@ -1,5 +1,6 @@
 # dog.rb
 
 class Dog
-  def
+  def name
+    
 end
